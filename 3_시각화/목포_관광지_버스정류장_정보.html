@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b71ee0e663f94bd788e21d7a7b4c3dc4 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_b71ee0e663f94bd788e21d7a7b4c3dc4" ></div>
+        
+</body>
+<script>    
+    
+            var map_b71ee0e663f94bd788e21d7a7b4c3dc4 = L.map(
+                "map_b71ee0e663f94bd788e21d7a7b4c3dc4",
+                {
+                    center: [34.79021947, 126.39523600000003],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_49611bb6c903474bb4b014a41c677b5f = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_b71ee0e663f94bd788e21d7a7b4c3dc4);
+        
+    
+            var marker_fa3f3afdd5bf407989c20a630327d647 = L.marker(
+                [34.7919978, 126.3725722],
+                {}
+            ).addTo(map_b71ee0e663f94bd788e21d7a7b4c3dc4);
+        
+    
+        var popup_a42f4142b3674676bea796f9e88d3861 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0b47cffb92ff42e09df5eedec34a493a = $(`<div id="html_0b47cffb92ff42e09df5eedec34a493a" style="width: 100.0%; height: 100.0%;">['유달산', 19.0]</div>`)[0];
+            popup_a42f4142b3674676bea796f9e88d3861.setContent(html_0b47cffb92ff42e09df5eedec34a493a);
+        
+
+        marker_fa3f3afdd5bf407989c20a630327d647.bindPopup(popup_a42f4142b3674676bea796f9e88d3861)
+        ;
+
+        
+    
+    
+            var marker_050488cfb3e94b81813cc49c2e21ae02 = L.marker(
+                [34.7921333, 126.4257616],
+                {}
+            ).addTo(map_b71ee0e663f94bd788e21d7a7b4c3dc4);
+        
+    
+        var popup_969da737fd9b487682a4a8ec171f8a4d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0ef95b532340416e900caafce7fa7aee = $(`<div id="html_0ef95b532340416e900caafce7fa7aee" style="width: 100.0%; height: 100.0%;">['갓바위', 20.0]</div>`)[0];
+            popup_969da737fd9b487682a4a8ec171f8a4d.setContent(html_0ef95b532340416e900caafce7fa7aee);
+        
+
+        marker_050488cfb3e94b81813cc49c2e21ae02.bindPopup(popup_969da737fd9b487682a4a8ec171f8a4d)
+        ;
+
+        
+    
+    
+            var marker_b0f1509dd64541dc983008ab179a36d2 = L.marker(
+                [34.787514, 126.3821295],
+                {}
+            ).addTo(map_b71ee0e663f94bd788e21d7a7b4c3dc4);
+        
+    
+        var popup_aed11ad8334f493e96f9707796bbbe02 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b9fdcae1e4c547878e25064fad336932 = $(`<div id="html_b9fdcae1e4c547878e25064fad336932" style="width: 100.0%; height: 100.0%;">['근대역사관', 6.0]</div>`)[0];
+            popup_aed11ad8334f493e96f9707796bbbe02.setContent(html_b9fdcae1e4c547878e25064fad336932);
+        
+
+        marker_b0f1509dd64541dc983008ab179a36d2.bindPopup(popup_aed11ad8334f493e96f9707796bbbe02)
+        ;
+
+        
+    
+    
+            var marker_773973687b4043bf9c5716d438e9f95d = L.marker(
+                [34.7918081, 126.4216601],
+                {}
+            ).addTo(map_b71ee0e663f94bd788e21d7a7b4c3dc4);
+        
+    
+        var popup_997037b8d21449e1b3acdb3fe8fb5707 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4230312326f6464e821f30cf519182c5 = $(`<div id="html_4230312326f6464e821f30cf519182c5" style="width: 100.0%; height: 100.0%;">['국립 해양 문화재 연구소 해양박물관', 6.0]</div>`)[0];
+            popup_997037b8d21449e1b3acdb3fe8fb5707.setContent(html_4230312326f6464e821f30cf519182c5);
+        
+
+        marker_773973687b4043bf9c5716d438e9f95d.bindPopup(popup_997037b8d21449e1b3acdb3fe8fb5707)
+        ;
+
+        
+    
+    
+            var marker_2d89e0f1e2d64e8e864a8e3017068169 = L.marker(
+                [34.7867463, 126.3551485],
+                {}
+            ).addTo(map_b71ee0e663f94bd788e21d7a7b4c3dc4);
+        
+    
+        var popup_25172d9032c347ff8e73ff0711fcb2c1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_81e94fab251d4404b9928396f47ba522 = $(`<div id="html_81e94fab251d4404b9928396f47ba522" style="width: 100.0%; height: 100.0%;">['목포대교', 19.0]</div>`)[0];
+            popup_25172d9032c347ff8e73ff0711fcb2c1.setContent(html_81e94fab251d4404b9928396f47ba522);
+        
+
+        marker_2d89e0f1e2d64e8e864a8e3017068169.bindPopup(popup_25172d9032c347ff8e73ff0711fcb2c1)
+        ;
+
+        
+    
+    
+            var marker_866b7610daee422aae08abf18f3ff25d = L.marker(
+                [34.7936555, 126.4210867],
+                {}
+            ).addTo(map_b71ee0e663f94bd788e21d7a7b4c3dc4);
+        
+    
+        var popup_9759f85cd7614e3da069853c2b72b459 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ed1f7f2b72c1492ca00f83d5a98e60fc = $(`<div id="html_ed1f7f2b72c1492ca00f83d5a98e60fc" style="width: 100.0%; height: 100.0%;">['자연사박물관', 20.0]</div>`)[0];
+            popup_9759f85cd7614e3da069853c2b72b459.setContent(html_ed1f7f2b72c1492ca00f83d5a98e60fc);
+        
+
+        marker_866b7610daee422aae08abf18f3ff25d.bindPopup(popup_9759f85cd7614e3da069853c2b72b459)
+        ;
+
+        
+    
+    
+            var marker_cc1fe9e1b6e3465b9bc509a84f89c5b0 = L.marker(
+                [34.7920875, 126.4217591],
+                {}
+            ).addTo(map_b71ee0e663f94bd788e21d7a7b4c3dc4);
+        
+    
+        var popup_1c9d9ea9755c444fb521715bea1327ed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ac806a7e87584b67bc94c75c46d3ef31 = $(`<div id="html_ac806a7e87584b67bc94c75c46d3ef31" style="width: 100.0%; height: 100.0%;">['국립해양유물전시관', 1.0]</div>`)[0];
+            popup_1c9d9ea9755c444fb521715bea1327ed.setContent(html_ac806a7e87584b67bc94c75c46d3ef31);
+        
+
+        marker_cc1fe9e1b6e3465b9bc509a84f89c5b0.bindPopup(popup_1c9d9ea9755c444fb521715bea1327ed)
+        ;
+
+        
+    
+    
+            var marker_b2fb196790a14590b62a81c71ead3f5d = L.marker(
+                [34.7945808, 126.3737109],
+                {}
+            ).addTo(map_b71ee0e663f94bd788e21d7a7b4c3dc4);
+        
+    
+        var popup_da8eb960eddd4ee68ef93c54a683c0f9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2a8b0831318c4b639065b931531ae42a = $(`<div id="html_2a8b0831318c4b639065b931531ae42a" style="width: 100.0%; height: 100.0%;">['유달산 조각공원', 19.0]</div>`)[0];
+            popup_da8eb960eddd4ee68ef93c54a683c0f9.setContent(html_2a8b0831318c4b639065b931531ae42a);
+        
+
+        marker_b2fb196790a14590b62a81c71ead3f5d.bindPopup(popup_da8eb960eddd4ee68ef93c54a683c0f9)
+        ;
+
+        
+    
+    
+            var marker_b6bb9a4077344f8abf76f0a7bc31d0d6 = L.marker(
+                [34.7828401, 126.39233],
+                {}
+            ).addTo(map_b71ee0e663f94bd788e21d7a7b4c3dc4);
+        
+    
+        var popup_fe3c9549b0404b0298043ab1e51be50a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5e9c2797504c4e288a655fd8c4e1d91c = $(`<div id="html_5e9c2797504c4e288a655fd8c4e1d91c" style="width: 100.0%; height: 100.0%;">['김대중 노벨평화상 기념관', 3.0]</div>`)[0];
+            popup_fe3c9549b0404b0298043ab1e51be50a.setContent(html_5e9c2797504c4e288a655fd8c4e1d91c);
+        
+
+        marker_b6bb9a4077344f8abf76f0a7bc31d0d6.bindPopup(popup_fe3c9549b0404b0298043ab1e51be50a)
+        ;
+
+        
+    
+    
+            var marker_bc181e11a3174e6f9f608f8b5b031faa = L.marker(
+                [34.7888313, 126.3862014],
+                {}
+            ).addTo(map_b71ee0e663f94bd788e21d7a7b4c3dc4);
+        
+    
+        var popup_962fcecf22c4418d9bc9bafb8808bdc8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_45d6b1dab1014ed6a8e5ccea22609a80 = $(`<div id="html_45d6b1dab1014ed6a8e5ccea22609a80" style="width: 100.0%; height: 100.0%;">['문화원', 19.0]</div>`)[0];
+            popup_962fcecf22c4418d9bc9bafb8808bdc8.setContent(html_45d6b1dab1014ed6a8e5ccea22609a80);
+        
+
+        marker_bc181e11a3174e6f9f608f8b5b031faa.bindPopup(popup_962fcecf22c4418d9bc9bafb8808bdc8)
+        ;
+
+        
+    
+</script>

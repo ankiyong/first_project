@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9ab7d44f28374716b0848d16642ff645 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_9ab7d44f28374716b0848d16642ff645" ></div>
+        
+</body>
+<script>    
+    
+            var map_9ab7d44f28374716b0848d16642ff645 = L.map(
+                "map_9ab7d44f28374716b0848d16642ff645",
+                {
+                    center: [35.805006875, 127.1273510625],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9fabb3bd4a954a1184a52350c8856a37 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_9ab7d44f28374716b0848d16642ff645);
+        
+    
+            var marker_d16ab2f9d1a245a9850204ac019a771b = L.marker(
+                [35.8146929, 127.1526346],
+                {}
+            ).addTo(map_9ab7d44f28374716b0848d16642ff645);
+        
+    
+        var popup_a542ecd1e5024f9bb407055ef133f3d3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b00b0e14b34c489ea2de98abab191d45 = $(`<div id="html_b00b0e14b34c489ea2de98abab191d45" style="width: 100.0%; height: 100.0%;">['한옥마을', 20.0]</div>`)[0];
+            popup_a542ecd1e5024f9bb407055ef133f3d3.setContent(html_b00b0e14b34c489ea2de98abab191d45);
+        
+
+        marker_d16ab2f9d1a245a9850204ac019a771b.bindPopup(popup_a542ecd1e5024f9bb407055ef133f3d3)
+        ;
+
+        
+    
+    
+            var marker_73d1186345bc4da7ac17edac7600cd4e = L.marker(
+                [35.8133205, 127.1492556],
+                {}
+            ).addTo(map_9ab7d44f28374716b0848d16642ff645);
+        
+    
+        var popup_9f9752335f1e4590ac606490e3c3aa60 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_257d5896a23146d699478d710b73b2aa = $(`<div id="html_257d5896a23146d699478d710b73b2aa" style="width: 100.0%; height: 100.0%;">['전동성당', 20.0]</div>`)[0];
+            popup_9f9752335f1e4590ac606490e3c3aa60.setContent(html_257d5896a23146d699478d710b73b2aa);
+        
+
+        marker_73d1186345bc4da7ac17edac7600cd4e.bindPopup(popup_9f9752335f1e4590ac606490e3c3aa60)
+        ;
+
+        
+    
+    
+            var marker_b02e578baed84007a913c963f03afa9b = L.marker(
+                [35.8475732, 127.121895],
+                {}
+            ).addTo(map_9ab7d44f28374716b0848d16642ff645);
+        
+    
+        var popup_af66dd2791cc49359ea9e2c7bc5316df = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4358d31ddda24c87a14028641d96b707 = $(`<div id="html_4358d31ddda24c87a14028641d96b707" style="width: 100.0%; height: 100.0%;">['덕진공원', 16.0]</div>`)[0];
+            popup_af66dd2791cc49359ea9e2c7bc5316df.setContent(html_4358d31ddda24c87a14028641d96b707);
+        
+
+        marker_b02e578baed84007a913c963f03afa9b.bindPopup(popup_af66dd2791cc49359ea9e2c7bc5316df)
+        ;
+
+        
+    
+    
+            var marker_7171c694dfdb49238e9e4083163d6e72 = L.marker(
+                [35.8142152, 127.1572118],
+                {}
+            ).addTo(map_9ab7d44f28374716b0848d16642ff645);
+        
+    
+        var popup_4c94a5d429bb488a88fa30969a10605f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_369b5c9a8ae14ad1a4e87a6b08a8a4b3 = $(`<div id="html_369b5c9a8ae14ad1a4e87a6b08a8a4b3" style="width: 100.0%; height: 100.0%;">['자만벽화마을', 18.0]</div>`)[0];
+            popup_4c94a5d429bb488a88fa30969a10605f.setContent(html_369b5c9a8ae14ad1a4e87a6b08a8a4b3);
+        
+
+        marker_7171c694dfdb49238e9e4083163d6e72.bindPopup(popup_4c94a5d429bb488a88fa30969a10605f)
+        ;
+
+        
+    
+    
+            var marker_7cff9b7366c24e7ea8faa6731517f278 = L.marker(
+                [35.8012972, 127.0897441],
+                {}
+            ).addTo(map_9ab7d44f28374716b0848d16642ff645);
+        
+    
+        var popup_c73e2ebc7aef41d68a00d8374d044fcb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cefe7016bbdf49b0bfc17aa4b116e85e = $(`<div id="html_cefe7016bbdf49b0bfc17aa4b116e85e" style="width: 100.0%; height: 100.0%;">['국립전주박물관', 18.0]</div>`)[0];
+            popup_c73e2ebc7aef41d68a00d8374d044fcb.setContent(html_cefe7016bbdf49b0bfc17aa4b116e85e);
+        
+
+        marker_7cff9b7366c24e7ea8faa6731517f278.bindPopup(popup_c73e2ebc7aef41d68a00d8374d044fcb)
+        ;
+
+        
+    
+    
+            var marker_0d3a8d1adb844ff69ea7a15d5639bc04 = L.marker(
+                [35.813494, 127.1475931],
+                {}
+            ).addTo(map_9ab7d44f28374716b0848d16642ff645);
+        
+    
+        var popup_0d168a9d9257475eb8fd3b3b00f01fea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_533f6f4cac024ab6a1a817a19ef6fde4 = $(`<div id="html_533f6f4cac024ab6a1a817a19ef6fde4" style="width: 100.0%; height: 100.0%;">['풍남문', 20.0]</div>`)[0];
+            popup_0d168a9d9257475eb8fd3b3b00f01fea.setContent(html_533f6f4cac024ab6a1a817a19ef6fde4);
+        
+
+        marker_0d3a8d1adb844ff69ea7a15d5639bc04.bindPopup(popup_0d168a9d9257475eb8fd3b3b00f01fea)
+        ;
+
+        
+    
+    
+            var marker_883f83900a9340f6bc88a7542c73c278 = L.marker(
+                [35.8125835, 127.1470564],
+                {}
+            ).addTo(map_9ab7d44f28374716b0848d16642ff645);
+        
+    
+        var popup_339da9c1a54e4c82bcac1f49c0b0988d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8131022006a44ceb867033bf9da58837 = $(`<div id="html_8131022006a44ceb867033bf9da58837" style="width: 100.0%; height: 100.0%;">['남부시장', 20.0]</div>`)[0];
+            popup_339da9c1a54e4c82bcac1f49c0b0988d.setContent(html_8131022006a44ceb867033bf9da58837);
+        
+
+        marker_883f83900a9340f6bc88a7542c73c278.bindPopup(popup_339da9c1a54e4c82bcac1f49c0b0988d)
+        ;
+
+        
+    
+    
+            var marker_efe4f11ff8d7443087fd9171b6694e94 = L.marker(
+                [35.7228785, 127.0534179],
+                {}
+            ).addTo(map_9ab7d44f28374716b0848d16642ff645);
+        
+    
+        var popup_4cc290728b5841b7978baef478c9672b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4c042affe86447fcac28d8d748f73b89 = $(`<div id="html_4c042affe86447fcac28d8d748f73b89" style="width: 100.0%; height: 100.0%;">['금산사', 2.0]</div>`)[0];
+            popup_4cc290728b5841b7978baef478c9672b.setContent(html_4c042affe86447fcac28d8d748f73b89);
+        
+
+        marker_efe4f11ff8d7443087fd9171b6694e94.bindPopup(popup_4cc290728b5841b7978baef478c9672b)
+        ;
+
+        
+    
+</script>
