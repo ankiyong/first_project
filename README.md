@@ -1,20 +1,13 @@
-## 공공 데이터를 활용한 탐색적 데이터 처리및 분석
+## 데이터 시각화 프로젝ㅌ르
 
-#### 주제:서울시 지역구별 치안 요인 분석
+#### 주제:관광객 수 증감에 대한 원인 분석 및 해결방안 모색
 
-개요: 공공데이터등을 이용하여 5대 요인별로 분류및 자치구별 치안 상태 확인및 자치구별 치안 종합 순위
-
-
-
-Hadoop을 기반으로 SPARK등를 활용하여 탐색적 분석, AWS 서버구축및 Django을 활용한 웹 구현
-
-
-
+개요: 주요 관광지의 관광객 증감 요인을 분석하여 시각화
  Languages : Python
 
  library: Crawling( Beautiful Soup, Selenium, Requset)
 
-​		   	Analytics(Matplotib,Folium)
+	Analytics(Matplotib,Folium)
 
 ​	
 
