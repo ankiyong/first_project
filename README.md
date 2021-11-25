@@ -3,11 +3,10 @@
 #### 주제:관광객 수 증감에 대한 원인 분석 및 해결방안 모색
 
 개요: 주요 관광지의 관광객 증감 요인을 분석하여 시각화
- Languages : Python
 
- library: Crawling( Beautiful Soup, Selenium, Requset)
+Languages : Python
 
-	Analytics(Matplotib,Folium)
+library: Beautiful Soup, Selenium, Requset, Matplotib, Folium
 
 ​	
 
