@@ -10,15 +10,11 @@ Hadoop을 기반으로 SPARK등를 활용하여 탐색적 분석, AWS 서버구�
 
 
 
-개발 환경: front - python / back -  MySQL, Python, Hadoop, Spark / framework-Django / server - AWS
-
-​				  /Analytics-pandas,Zeplin
-
  Languages : Python
 
  library: Crawling( Beautiful Soup, Selenium, Requset)
 
-​		   	Analytics(Matplotib,Seaborn,Folium,Plotly,VisulAnalysis)
+​		   	Analytics(Matplotib,Folium)
 
 ​	
 
