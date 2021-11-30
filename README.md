@@ -1,14 +1,54 @@
-## 데이터 시각화 프로젝르
+## 데이터 시각화 프로젝트
 
-#### 주제:관광객 수 증감에 대한 원인 분석 및 해결방안 모색
+#### 1.Project
 
-개요: 주요 관광지의 관광객 증감 요인을 분석하여 시각화
+- 관광객 수 증감에 대한 원인 분석 및 해결방안 모색
 
-Languages : Python
+#### 2. Description
 
-library: Beautiful Soup, Selenium, Requset, Matplotib, Folium
+- 코로나 어쩌구 선정된 5개 도시의 관광 인프라 
 
-​	
+#### 3. Role
+
+- 주요 관광지역 인프라 데이터 크롤링
+- 데이터 전처리
+- 수집 정보 시각화
+
+#### 4. Skill
+
+- Python
+- Bs4
+- Selenium
+- Pandas
+- Matplotlib
+- Folium
+
+#### 5. Outputs
+
+1. 주요 관광지별 방문자 수
+   - 등락 폭이 가장 큰 목포,전주를 대상 도시로 선정
+
+![image-20211130234212225](README.assets/image-20211130234212225.png)
+
+2. 목포,전주 숙박업소 가격 정보(boxplot)
+
+   ![image-20211130224833240](README.assets/image-20211130224833240.png)
+
+   3. 목포,전주 숙박업소 가격 정보(histogram)
+
+![image-20211130224855254](README.assets/image-20211130224855254.png)
+
+![image-20211130224934868](README.assets/image-20211130224934868.png)
+
+4. 목포,전주 소비자물가등락률, 소비자물가지수
+
+![image-20211130224444474](README.assets/image-20211130224444474.png)
+
+5. 주요 관광지간 최단거리 평균
+
+![image-20211130224427994](README.assets/image-20211130224427994.png)
+
+
 
 | **출처**                                                     | **데이터이름**                            | **제공형태**    | **요약**                                                     |
 | :----------------------------------------------------------- | :---------------------------------------- | :-------------- | ------------------------------------------------------------ |
@@ -23,14 +63,3 @@ library: Beautiful Soup, Selenium, Requset, Matplotib, Folium
 | 네이버지도     https://naver.com                             | 진도  주요 관광지                         | 웹  크롤링(CSV) | 진도  주요 관광지에 대한 정보를 웹 서치 후 일부 추출 csv 파일 변환 |
 | 국가통계포털     https://kosis.kr/search/search.do           | 소비자물가지수                            | API(CSV)        | 소비자물가지수  정보를 csv  파일로  제공받은 후 시각화 작업  |
 | 국가통계포털     https://kosis.kr/search/search.do           | 소비자물가등락률                          | API(CSV)        | 소비자물가등락률  정보를 csv  파일로  제공받은 후 시각화 작업 |
-
-
-
-
-
-
-
-
-
-
-
