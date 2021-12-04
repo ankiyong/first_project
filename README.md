@@ -1,29 +1,53 @@
 ## 데이터 시각화 프로젝트
+---
+## Description
 
-#### 1.Project
 
-- 관광객 수 증감에 대한 원인 분석 및 해결방안 모색
 
-#### 2. Description
+- 관광객 수 증감에 대한 원인 분석 및 시각화
 
-- 코로나 어쩌구 선정된 5개 도시의 관광 인프라 
 
-#### 3. Role
+***
+## ***Skill***
 
-- 주요 관광지역 인프라 데이터 크롤링
-- 데이터 전처리
-- 수집 정보 시각화
+<div>
+<img src='README.assets/Python-Symbol.png' width=200px >
+<img src='README.assets/pandas.jpeg' width=200px>
+<br></br>
+<img src='README.assets/bs.png' width=200px>
+<img src='README.assets/selenium_logo.png' width=200px>
+<br></br>
+<br></br>
+<img src='README.assets/matplotlib.png' width=200px>
+<img src='README.assets/folium.png' width=250px>
+<br></br>
+<br></br>
 
-#### 4. Skill
+</span>
+</div>
 
-- Python
-- Bs4
-- Selenium
-- Pandas
-- Matplotlib
-- Folium
 
-#### 5. Outputs
+
+
+## ***Role***
+---
+
+- 공공데이터포털,naver,google 등의 사이트에서 주요 관광지역 인프라 데이터 크롤링
+- Pandas를 사용하여 원하는 형태로 데이터 전처리
+- Folium,Matplotlib을 사용하여 그래프 및 지도 시각화
+
+
+
+
+# ***Outputs***
+
+### *1. 데이터 시각화*                   
+
+##### 관광객 증감에 영향을 끼치는 요인 시각화
+
+   
+[Source Code Link](https://github.com/ankiyong/first_project/tree/master/1_Code)
+    
 
 1. 주요 관광지별 방문자 수
    - 등락 폭이 가장 큰 목포,전주를 대상 도시로 선정
@@ -34,7 +58,7 @@
 
    ![image-20211130224833240](README.assets/image-20211130224833240.png)
 
-   3. 목포,전주 숙박업소 가격 정보(histogram)
+3. 목포,전주 숙박업소 가격 정보(histogram)
 
 ![image-20211130224855254](README.assets/image-20211130224855254.png)
 
@@ -47,6 +71,13 @@
 5. 주요 관광지간 최단거리 평균
 
 ![image-20211130224427994](README.assets/image-20211130224427994.png)
+
+
+  
+    
+
+
+
 
 
 
