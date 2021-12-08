@@ -35,7 +35,7 @@
 - 공공데이터포털,naver,google 등의 사이트에서 주요 관광지역 인프라 데이터 크롤링
 - Pandas를 사용하여 원하는 형태로 데이터 전처리
 - Folium,Matplotlib을 사용하여 그래프 및 지도 시각화
-
+![image-20211130234212225](README.assets/process.png)
 
 
 
