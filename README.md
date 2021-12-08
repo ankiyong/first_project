@@ -72,7 +72,21 @@
 
 ![image-20211130224427994](README.assets/image-20211130224427994.png)
 
+6. 공영주차장 현황
+- 전주시
 
+    ![전주공영주차장](README.assets/parking_j.png)
+- 목포시 
+  
+   ![목포공영주차장](README.assets/parking_m.png)
+
+7. 인근 관광지 현황
+- 전주시
+  
+  ![전주인근관광지](README.assets/junju.png)
+- 목포시
+  
+  ![목포인근관광지](README.assets/mokpo.png)
   
     
 
